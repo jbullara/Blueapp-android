@@ -7,13 +7,14 @@ public class Constants {
 
 
     public static final String REQUEST_FUNC = "REQUEST";
+
     public static final String AUTH_FUNC = "AUTH";
     public static final String CHANGE_PASSWORD_FUNC = "PW";
     public static final String ORDER_FUNC = "ORDER";
     public static final String INV_FUNC = "INV";
     public static final String INV_DETAIL_FUNC = "INVDETAIL";
     public static final String REVIEW_FUNC = "REVIEW";
-    public static final String UPDATE_CUST_FUNC = "UPCUST";
+    public static final String UPDATE_CUST_FUNC = "UPCUST2";
 
 
 
