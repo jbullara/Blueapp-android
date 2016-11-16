@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorBlue"
+    tools:context="com.example.jasonbullara.blueapp.net.example.jasonbullara.blueapp.categoryFragment">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="What would you like?"
+
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTuna"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:backgroundTint="@android:color/white"
+            android:text="Tuna"
+            android:id="@+id/tunabtn" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/white"
+            android:textStyle="bold"
+            android:textColor="@color/colorSword"
+            android:fontFamily="sans-serif"
+            android:text="Swordfish"
+            android:id="@+id/swordbtn" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/white"
+            android:textColor="@color/colorMahi"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:text="Mahi"
+            android:id="@+id/mahibtn"
+          />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/white"
+            android:textColor="@color/colorWahoo"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:text="Wahoo"
+            android:id="@+id/wahoobtn"
+           />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/white"
+            android:textColor="@color/colorSalmon"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:text="Salmon"
+            android:id="@+id/salmonbtn"
+             />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/white"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:text="Other"
+            android:id="@+id/otherbtn"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</RelativeLayout>
