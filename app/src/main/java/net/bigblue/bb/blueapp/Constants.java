@@ -14,7 +14,7 @@ public class Constants {
     public static final String INV_FUNC = "INV";
     public static final String INV_DETAIL_FUNC = "INVDETAIL";
     public static final String REVIEW_FUNC = "REVIEW";
-    public static final String UPDATE_CUST_FUNC = "UPCUST2";
+    public static final String UPDATE_CUST_FUNC = "UPCUST";
 
 
 
